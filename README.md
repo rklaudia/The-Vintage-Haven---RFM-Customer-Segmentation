@@ -1,4 +1,6 @@
-Vintage Haven – RFM Segmentation Analysis  
+Project: Vintage Haven – RFM Segmentation Analysis  
+Author: Klaudia Rapa 
+Date: 01.12.2025
 Looker Studio Dashboard: https://lookerstudio.google.com/reporting/92f2c237-6ef2-44f3-849e-93c0e4171fea
 
 ### Customer Value, Behaviour, and Marketing Prioritisation for a Growing Online Retailer
@@ -102,6 +104,17 @@ The raw dataset contained several quality issues:
 
 
 ## 6. Methodology
+
+### What is RFM?
+
+**RFM (Recency, Frequency, Monetary)** is a proven customer segmentation framework used in marketing and CRM analytics.
+
+- **Recency:** How recently a customer made a purchase  
+- **Frequency:** How often a customer buys  
+- **Monetary:** How much a customer spends in total  
+
+By scoring each customer on these three dimensions (typically on a 1–5 scale), RFM identifies behavioural patterns that help businesses separate **high-value, loyal, and at-risk buyers**.  
+RFM is widely used because it is simple, explainable, and highly effective at predicting which customers are most likely to buy again — making it a strong foundation for targeted marketing and retention strategies.
 
 ### 6.1 Customer Typing
 Customers were classified based on **average quantity per order**:
