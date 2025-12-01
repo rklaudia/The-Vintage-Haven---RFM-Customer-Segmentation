@@ -1,6 +1,6 @@
 Project: Vintage Haven – RFM Segmentation Analysis  
-Author: Klaudia Rapa 
-Date: 01.12.2025
+Author: Klaudia Rapa   
+Date: 01.12.2025  
 Looker Studio Dashboard: https://lookerstudio.google.com/reporting/92f2c237-6ef2-44f3-849e-93c0e4171fea
 
 ### Customer Value, Behaviour, and Marketing Prioritisation for a Growing Online Retailer
