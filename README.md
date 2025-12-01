@@ -1,5 +1,5 @@
 Vintage Haven – RFM Segmentation Analysis  
-Looker Studio Dashboard: https://lookerstudio.google.com/s/lst05v3Ilyo
+Looker Studio Dashboard: https://lookerstudio.google.com/reporting/92f2c237-6ef2-44f3-849e-93c0e4171fea
 
 ### Customer Value, Behaviour, and Marketing Prioritisation for a Growing Online Retailer
 
