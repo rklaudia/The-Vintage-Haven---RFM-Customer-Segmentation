@@ -1,4 +1,4 @@
-Vintage Haven – RFM Segmentation Analysis
+Vintage Haven – RFM Segmentation Analysis  
 Looker Studio Dashboard: https://lookerstudio.google.com/s/lst05v3Ilyo
 
 ### Customer Value, Behaviour, and Marketing Prioritisation for a Growing Online Retailer
