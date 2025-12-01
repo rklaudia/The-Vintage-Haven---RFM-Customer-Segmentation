@@ -1,8 +1,6 @@
 Vintage Haven – RFM Segmentation Analysis  
 ### Customer Value, Behaviour, and Marketing Prioritisation for a Growing Online Retailer
 
----
-
 ## 📋 Table of Contents
 1. [Project Overview](#1-project-overview)  
 2. [Business Context](#2-business-context)  
@@ -21,7 +19,6 @@ Vintage Haven – RFM Segmentation Analysis
 11. [Repository Structure](#11-repository-structure)  
 12. [Next Steps](#12-next-steps)
 
----
 
 ## 1. Project Overview
 This project provides an end-to-end customer analytics solution for **The Vintage Haven**, a London-based retailer that expanded into an international online store.  
@@ -35,7 +32,6 @@ Using **RFM segmentation**, it analyses over **540,000 transactions** from the U
 
 The outputs include RFM scoring, segmentation logic, and an interactive dashboard created in Looker Studio.
 
----
 
 ## 2. Business Context
 The Vintage Haven serves a diverse audience:
@@ -53,7 +49,6 @@ This project aims to:
 - Compare **retail vs business buyers**  
 - Support a **data-driven marketing strategy** that maximises revenue
 
----
 
 ## 3. Data Source
 - **Dataset:** Online Retail  
@@ -62,7 +57,6 @@ This project aims to:
 - **DOI:** https://doi.org/10.24432/C5BW33  
 - **Granularity:** Each row is a product-level line item on an invoice  
 
----
 
 ## 4. Data Overview
 
@@ -83,7 +77,6 @@ This project aims to:
 - **Countries:** UK + international  
 - **Unique products:** ~3,600 after cleaning and deduplication  
 
----
 
 ## 5. Data Quality Considerations
 The raw dataset contained several quality issues:
@@ -105,7 +98,6 @@ The raw dataset contained several quality issues:
   - RFM metrics: `Recency`, `Frequency`, `Monetary`  
 - Retained outliers due to lack of external validation
 
----
 
 ## 6. Methodology
 
@@ -118,7 +110,6 @@ Customers were classified based on **average quantity per order**:
 
 This grouping was used mainly for interpretation and fairness in scoring, not as the primary segmentation method.
 
----
 
 ### 6.2 RFM Calculation
 For each customer:
@@ -133,7 +124,6 @@ RFM values were derived from the cleaned transactional data.
 
 Scores from **1 to 5** were then assigned to each metric **within customer type** to avoid wholesalers dominating the scale due to high volumes.
 
----
 
 ### 6.3 RFM Segmentation
 Based on R, F, and M scores, customers were assigned into the following segments:
@@ -148,7 +138,6 @@ Based on R, F, and M scores, customers were assigned into the following segments
 
 These segments form the basis for marketing prioritisation.
 
----
 
 ### 6.4 Dashboard
 A Looker Studio dashboard was developed to:
@@ -161,7 +150,6 @@ A Looker Studio dashboard was developed to:
 
 > You can add the dashboard link here once published.
 
----
 
 ## 7. Key Insights
 
@@ -185,7 +173,6 @@ The analysis identifies three core priority segments:
 - **Potential Loyalists** – strong growth potential  
 - **At Risk but Valuable** – high-value lapsed buyers with reactivation upside  
 
----
 
 ## 8. Marketing Recommendations
 
@@ -213,7 +200,6 @@ The analysis identifies three core priority segments:
 - **At Risk / Lost** and **Others** should receive light-touch, automated communication (newsletters, seasonal campaigns) rather than high-spend efforts.  
 - **Recent Customers** should be nurtured with onboarding flows and post-purchase follow-ups.
 
----
 
 ## 9. Business Impact
 This RFM segmentation enables The Vintage Haven to:
@@ -226,7 +212,6 @@ This RFM segmentation enables The Vintage Haven to:
 
 Overall, the project provides a clear, data-driven basis for the **next marketing campaign** and for ongoing customer management.
 
----
 
 ## 10. Tools & Skills Demonstrated
 - **Python** (pandas, numpy) for data cleaning and transformation  
